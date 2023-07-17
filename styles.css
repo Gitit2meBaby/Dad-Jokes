@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 20px 0;
+    align-items: center;
+}
+
+
+/* quote generator */
+.joke-gen {
+    background: url('/chloe.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.container {
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px white;
+    border-radius: 20px;
+    gap: 10px;
+    padding: 20px;
+}
+
+.container-bg {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+#gen {
+    color: white;
+    font-size: 100px;
+    padding-bottom: 90px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px black;
+    text-align: center;
+}
+
+#new-joke {
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, .7);
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.joke {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    align-self: center;
+    padding-bottom: 15px;
+}
+
+.answer {
+    color: white;
+    text-align: center;
+    align-self: center;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.gif-background {
+    background: url('neil.gif') no-repeat center center fixed;
+    background-size: cover;
+}
